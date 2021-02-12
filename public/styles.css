@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+span{
+    color: yellowgreen;
+    font-size: 50px;
+}
+h1{
+    margin: 0px;
+    padding: 5%;
+
+    color: aliceblue;
+    font-size: 40px;
+    animation: animateh1 1s forwards ease-out;
+
+}
+h2{
+    margin: 0px;
+    padding: 5%;
+    font-size: 38px;
+    
+}
+
+@keyframes animateh1{
+    0%{
+        opacity: 0;
+        padding-top: 200px;
+    }
+    100%{
+        opacity: 1;
+        padding-top: 80px;
+
+    }
+}
+
+#intro{
+    position: relative;
+    height: 80vh;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.custom-shape-divider-bottom-1613143470 {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1613143470 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 181px;
+}
+
+.custom-shape-divider-bottom-1613143470 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#main{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.link-github{
+   
+    margin: 5% auto 5% auto;
+    height: 40vh;
+    width: 30vw;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+
+@media (max-width : 600px){
+
+    .link-github{
+   
+        margin: 5% auto 5% auto;
+        height: 40vh;
+        width: 80vw;
+       
+    
+    }
+}
+
+i{
+  padding: 10%;
+
+}
