@@ -4,6 +4,8 @@
   "description": "a sample api with deta.sh",
   "main": "index.js",
   "scripts": {
+    "start" : "node index.js",
+    "dev" : "npx nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Divesh Keswani",
